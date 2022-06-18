@@ -98,10 +98,10 @@ colTitle.forEach((cell) => {
 
     if (cell.className.includes('active')) {
       sortData = sortArrUp(arr, key);
-      elCell.className = 'tdTable';
+      elCell.className = 'thTable';
     } else {
       sortData = sortArrDown(arr, key);
-      elCell.className = 'tdTable active';
+      elCell.className = 'thTable active';
     }
 
     tbody.innerHTML = '';
