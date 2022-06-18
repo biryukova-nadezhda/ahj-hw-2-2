@@ -1,0 +1,13 @@
+.table {
+	border-collapse:  collapse;
+}
+
+.thTable {
+	background-color: #7eb0c0;
+	text-align:  center;
+}
+
+.tdTable, .thTable {
+	padding:  10px 15px;
+	border: 1px solid #000000;
+}
